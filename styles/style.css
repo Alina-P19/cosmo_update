@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+body{
+    font-family: 'Jura';
+    background-color: #030514;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-tire.png");
+}
+
+header {
+    background-color: #070b2e;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_image{
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #070b2e;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+nav a.active {
+    font-weight: bold;
+  }
+
+  nav ul li {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 50px;
+    transition: 500ms;
+}
+
+nav a:hover{
+    text-shadow: 0 0 5px white;
+}
+
+section{
+    padding: 55px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.main_page_title{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.main_title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.main_text{
+    max-width: 800px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 85px;
+}
+
+.main_img{
+    width: 850px;
+    height: 380px;
+    border-radius: 50px;
+}
+
+.giants_title{
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 2px solid #101547;
+    color: #ffffff;
+    text-align: center;
+    font-size: 44px;
+}
+
+.giants_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.giant_crard {
+    width: 320px;
+    padding: 50px;
+    margin: 75px;
+    box-shadow: 10px 40px 50px rgba(221, 221, 221, 0.11);
+    border-radius: 20px;
+    background-color: #070b2e;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: 500ms;
+}
+
+.card_image{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.giant_crard h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.giant_crard p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.giant_crard:hover{
+    background-color: #09093d;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    box-shadow: 10px 40px 50px rgba(238, 238, 238, 0.267);
+}
+
+.giant_link{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.giant_link:hover{
+    text-shadow: 0 0 5px white;
+}
+
+.video {
+    padding: 3.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+  .video_top {
+    color: #ffffff;
+    font-size: 25px;
+    border-bottom: 2px solid #101547;
+    padding: 1.1rem;
+    margin-bottom: 40px;
+  }
+  .video_content iframe {
+  border-radius: 50px;
+  max-width: 100%;
+  max-width: 100%;
+  min-width: 550px;
+  }
+
+  .facts {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.facts h2 {
+    color: #ffffff; 
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #101547;
+}
+
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.facts li {
+    margin-bottom: 10px;
+    margin-left: 80px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#about {
+    padding: 10px 20px;
+    margin-top: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_content h2 {
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about_content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#about p:last-child {
+    margin-bottom: 0;
+}
+
+
+.contact {
+    padding: 35px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact_top {
+    border-bottom: 2px solid #101547;
+    padding: 1.1rem;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  
+  .contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.1rem 5.6rem;
+    border-radius: 15px;
+  }
+  
+  .input_group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input_group label{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0.6rem 0;
+    padding-top: 30px;
+  }
+  
+  .input_group input{
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 3px solid #101547;
+    font-size: 18px;
+  }
+  
+  .input_group input::placeholder {
+    color: #4c5779;
+  }
+  
+  .input_group button[type="submit"] {
+    margin: 30px;
+    padding: 20px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #131958;
+    border: 1px solid #131958;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 300ms;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .input_group button[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #131958;
+  }
+
+  footer {
+    padding: 56px;
+    background-color: #070b2e;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.footer_left p {
+    margin: 20px 0;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+}
+
+.footer_right {
+    display: flex;
+}
+
+.footer_list {
+    padding: 0.6rem;
+    margin: 10px;
+}
+
+.footer_list p {
+    font-weight: bold;
+    padding: 1.1rem 0;
+}
+
+.footer_list ul {
+    list-style: none;
+    transition: 300ms;
+}
+
+.footer_list ul li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 0.8rem 1.1rem;
+    padding-left: 0;
+    text-decoration: none;
+    
+}
+
+.footer_list ul a:hover{
+    text-shadow: 0 0 5px white;
+}
+
+@media only screen and (max-width: 1020px) {
+
+    header {
+        font-size: 20px;
+    }
+
+    nav ul {
+        align-items: center;
+        flex-direction: column; 
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+
+    .main_page_title {
+        font-size: 36px; 
+    }
+
+    .main_title {
+        font-size: 24px;
+    }
+
+    .container {
+        flex-direction: column; 
+    }
+
+    .main_text {
+        padding-right: 0;
+        padding-bottom: 20px; 
+        font-size: 20px;
+    }
+
+    .main_img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 30px;
+    }
+
+    .giants_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .giant_crard {
+        width: 500Px;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .card_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .video_content iframe {
+        width: 500px;
+        height: 250px;
+    }
+
+    .facts h2 {
+        font-size: 24px;
+    }
+
+    .facts ul {
+        padding-left: 10px;
+    }
+
+    .facts li {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    #about {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .about_content h2 {
+        font-size: 28px;
+    }
+
+    .about_content p {
+        font-size: 18px;
+    }
+
+    .contact_form {
+        padding: 1.1rem 2rem;
+    }
+
+    .input_group input, .input_group button[type="submit"] {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .footer_left, .footer_right {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer_right {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .main_page_title {
+        font-size: 36px;
+    }
+
+    .main_title {
+        font-size: 20px;
+    }
+
+    .main_text {
+        font-size: 18px;
+    }
+
+    .giant_crard h3 {
+        font-size: 20px;
+    }
+
+    .giant_crard p {
+        font-size: 16px;
+    }
+
+    .video_top {
+        font-size: 20px;
+    }
+
+    .facts h2 {
+        font-size: 20px;
+    }
+
+    .facts li {
+        font-size: 14px;
+    }
+
+    .about_content h2 {
+        font-size: 24px;
+    }
+
+    .about_content p {
+        font-size: 16px;
+    }
+
+    .input_group label {
+        font-size: 18px;
+    }
+
+    .input_group input, .input_group button[type="submit"] {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+}
